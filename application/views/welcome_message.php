@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter maina</title>
+	<title>Welcome to CodeIgniter maina test4e</title>
 
 	<style type="text/css">
 
@@ -70,7 +70,7 @@
 	<h1>Welcome to CodeIgniter TUKA maina!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+		<p>The page you are looking at is being generated dynamically by CodeIgniter i ot men.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
