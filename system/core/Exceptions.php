@@ -107,7 +107,7 @@ class CI_Exceptions {
 		$heading = "404 Page Not Found";
 		$message = "The page you requested was not found.";
 
-		// By default we log this, but allow a dev to skip it
+		// By default we log this, but allow a development to skip it
 		if ($log_error)
 		{
 			log_message('error', '404 Page Not Found --> '.$page);

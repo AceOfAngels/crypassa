@@ -64,7 +64,7 @@ $autoload['libraries'] = array();
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('url', 'view_load');
 
 
 /*
@@ -80,12 +80,7 @@ $autoload['helper'] = array();
 |
 */
 
-if ($_SERVER['SERVER_NAME'] == 'dev.crypassa.com') {
-	//$config['base_url']	= 'https://cashier-dev.riva.com/ci/';
-	$autoload['config'] = array('dev/cryp_database');
-}
-else
-	$autoload['config'] = array('cryp_database');
+$autoload['config'] = array();
 
 
 /*
